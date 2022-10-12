@@ -1,0 +1,39 @@
+.arrow-left1:hover{
+    border-right:300px solid black;
+    transform: rotate(90deg);
+}
+
+.arrow-right1:hover{
+    border-left: 100px solid green;
+    transform: rotate(90deg);
+}
+
+.arrow-down1:hover{
+    border-top: 130px solid var(--greyish);
+    transform: rotate(90deg);
+}
+
+.arrow-right2:hover{
+    border-left: 200px solid var(--silverish);
+    transform: rotate(90deg);
+}
+
+.arrow-right3:hover{
+    transform: rotate(90deg);
+}
+
+.arrow-left2:active{
+    transform: rotate(90deg);
+}
+
+.canvas:hover{
+    rotate: (360deg);
+}
+
+@keyframes move {
+    0%   {left:0px; top:0px; width: 500px; height: 500px;}
+    25%  {left:200px; top:0px; width: 700px; height: 700px;}
+    50%  {left:200px; top:200px; width: 1000px; height: 1000px;}
+    75%  {left:0px; top:200px; width: 700px; height: 700px;}
+    100% {left:0px; top:0px; width: 500px; height: 500px;}
+  }

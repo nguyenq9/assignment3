@@ -1,0 +1,106 @@
+:root{
+    --maroonish: #ae1b09;
+    --yellowish: #c9a342;
+    --greyish: #6f6566;
+    --blackish: #262020;
+    --base: #d0c7c0;
+    --silverish: #8b8d91;
+}
+
+body{
+    text-align: center;
+}
+
+.canvas{
+    position: relative;
+    margin: 0 auto;
+    background-color: var(--base);
+    width: 500px;
+    height: 500px;
+    animation-name: move;
+    animation-duration: 5s;
+}
+
+.arrow-left1 {
+    position: absolute;
+    right: 0px;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent; 
+    
+    border-right:300px solid var(--maroonish); 
+    transition: 0.5s, transform 0.5s;
+
+}
+
+.arrow-right1 {
+    position: absolute;
+    bottom: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    
+    border-left: 100px solid var(--yellowish);
+    transition: 0.5s, transform 0.5s;
+}
+.arrow-down1 {
+    position: absolute;
+    right: 0px;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    
+    border-top: 130px solid var(--greyish);
+    transition: 0.5s, transform 0.5s;
+}
+
+.arrow-right2 {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    border-top: 200px solid transparent;
+    border-left: 200px solid var(--silverish);
+    transition: 0.5s, transform 0.5s;
+}
+
+.arrow-right3 {
+    position: absolute;
+    border-bottom: 160px solid transparent;
+    
+    border-left: 160px solid var(--silverish);
+    transition: 0.5s, transform 0.5s;
+}
+
+.arrow-left2 {
+    position: absolute;
+    bottom: 0px;
+    left: -70px;
+    border-top: 270px solid transparent;
+    border-bottom: 270px solid transparent; 
+    
+    border-right: 270px solid var(--blackish);
+    transition: 0.5s, transform 0.5s; 
+}
+
+.arrow-white1{
+    position: absolute;
+    bottom: 190px;
+    left: -80px;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent; 
+    
+    border-right: 80px solid white; 
+}
+.arrow-white2{
+    position: absolute;
+    bottom: -150px;
+    right: 0px;
+    border-bottom: 150px solid transparent; 
+    
+    border-right: 150px solid white; 
+}
+.arrow-white3{
+    position: absolute;
+    right: 300px;
+    top: -50px;
+    border-top: 50px solid transparent;
+
+    border-right: 50px solid white; 
+}
